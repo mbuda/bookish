@@ -1,0 +1,15 @@
+development: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: bookish
+  password: booky
+  database: bookish_development
+
+test:
+  <<: *default
+  database: bookish_test
+
+production:
+  <<: *default
+  database: bookish_production
