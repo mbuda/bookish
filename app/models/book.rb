@@ -1,5 +1,3 @@
 class Book < ActiveRecord::Base
-  belongs_to :author
-  validates :firstname, presence: true
-  validates :lastname, presence: true
+  validates :title, presence: true, uniqueness: { case_sensitive: false }
 end

@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'spec_helper'
 
 describe Book do
   before do
@@ -10,7 +10,7 @@ describe Book do
   it { should respond_to(:title) }
   it { should be_valid }
 
-  describe 'when title not presenet' do
+  describe 'when title not present' do
     before { @book.title = '' }
     it { should_not be_valid }
   end
