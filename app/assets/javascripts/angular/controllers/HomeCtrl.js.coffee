@@ -1,3 +1,2 @@
-@bookish.controller 'HomeCtrl', [$scope, ($scope) ->
-
-]
+@HomeCtrl = ($scope) ->
+  $scope.foo = 'bar'

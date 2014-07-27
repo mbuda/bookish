@@ -1,9 +1,10 @@
-@bookish = angular.module('bookish', [])
+/*@bookish = angular.module('bookish', [])
 
 @bookish.config([$routeProvider', ($routeProvider) ->
   $routeProvider.
     .otherwise({
-      templateUrl: '../templates/home.html.slim',
+      templateUrl: 'templates/home.html.slim',
       controller: 'HomeCtrl'
     })
 ])
+*/

@@ -1,11 +1,11 @@
 doctype html
-html ng-app='bookish'
+html(ng-app)
   head
     title Bookish
     = stylesheet_link_tag    'application', media: 'all'
-    = javascript_include_tag 'application'
+    = javascript_include_tag 'application', controller_name
     = csrf_meta_tags
   body
-    div ng-view
+    div(ng-view)
     = yield
 
