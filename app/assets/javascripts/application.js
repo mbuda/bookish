@@ -15,3 +15,6 @@
 //= require bootstrap
 //= require underscore
 //= require angular
+//= require angular-resource
+//= require angular-route
+//= require bookish
